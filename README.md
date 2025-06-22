@@ -2,14 +2,14 @@
 
 This is a command-line AI assistant using **Amazon Bedrock (Claude v2)** via the AWS CLI and Python.
 
-## 📦 Requirements
+## Requirements
 
 - Python 3.8+
 - AWS CLI configured (`aws configure`)
 - Region: `us-east-1`
 - IAM permissions: `bedrock:InvokeModel`
 
-## 🚀 How to Run
+## How to Run
 
 1. Install dependencies:
 ```bash
