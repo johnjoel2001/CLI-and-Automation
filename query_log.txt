@@ -1,0 +1,13 @@
+2025-06-22 01:39:31.121044 | Explain the concept of serverless computing → Serverless computing refers to a cloud computing model where the cloud provider dynamically manages the allocation and provisioning of servers. The key characteristics of serverless computing are:
+
+- No server management - The cloud provider automatically provisions, scales and manages the servers required to run the code. The developer doesn't need to provision or manage any servers.
+
+- Event-driven scaling - The code is run in stateless containers that can be triggered by events like HTTP requests, database events, queue messages etc. The containers are created on-demand to handle each event and shut down after the request is processed. This allows for efficient scaling.
+
+- Pay-per-use pricing - With serverless, you only pay for the compute resources you actually use to run your code. You pay based on the number of executions and resources used per execution. There is no cost when code is not running.
+
+- Automated high availability - The cloud provider ensures high availability of the serverless code by distributing it across multiple data centers. The code is replicated to prevent any single point of failure.
+
+- Faster development - Serverless computing removes the need to manage infrastructure. This allows developers to focus on just writing and deploying code. The abstraction of servers enables faster development of code.
+
+In summary, serverless computing provides automated scaling, high availability and pay-per-use pricing for code in stateless containers that are triggered by events. It allows developers to build and deploy code
